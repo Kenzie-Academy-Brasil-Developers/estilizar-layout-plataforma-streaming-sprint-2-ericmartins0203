@@ -41,7 +41,12 @@ body h2{
 
 /*TOPO*/
 	header.topo{
-		
+		position: absolute;
+		top: 0;
+		left: 30px;
+	}
+	h2{
+		margin-top: 30px;
 	}
 
 /*RODAPÉ*/
@@ -66,7 +71,9 @@ ul{
 	flex-wrap: wrap;
 	width: 70%;	
 }
-
+li{
+	width: 40%;
+}
 img{
 	width: 120px;
 }
@@ -76,7 +83,7 @@ figcaption{
 }
 
 button{
-	padding: 30px 100px;
+	padding: 30px 10px;
 	border: 2px solid var(--second-color);
 	background-color: var(--first-color);
 	color: var(--second-color);
@@ -87,7 +94,7 @@ img:hover {
 	border: 2px solid var(--second-color)
 }
 
-@media only screen and (min-width: 858px){
+@media only screen and (min-width: 800px){
 	ul{
 		max-width: 858px;
 	}
@@ -99,6 +106,8 @@ img:hover {
 	}
 	button{
 		font-size: 30px;
+		padding: 30px 100px;
+
 	}
 }
 
