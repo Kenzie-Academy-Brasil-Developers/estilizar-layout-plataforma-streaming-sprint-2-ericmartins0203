@@ -43,7 +43,10 @@ body h2{
 	header.topo{
 		position: absolute;
 		top: 0;
-		left: 30px;
+		left: 10px;
+	}
+	img{
+		width: 130px
 	}
 	h2{
 		margin-top: 30px;
@@ -74,8 +77,8 @@ ul{
 li{
 	width: 40%;
 }
-img{
-	width: 180px;
+section img{
+	width: 100%;
 }
 
 figcaption{
