@@ -75,7 +75,7 @@ li{
 	width: 40%;
 }
 img{
-	width: 120px;
+	width: 180px;
 }
 
 figcaption{
@@ -88,15 +88,16 @@ button{
 	background-color: var(--first-color);
 	color: var(--second-color);
 	font-size: 20px;
+	margin-bottom: 50px;
 }
 
 img:hover {
 	border: 2px solid var(--second-color)
 }
 
-@media only screen and (min-width: 800px){
+@media only screen and (min-width: 768px){
 	ul{
-		max-width: 858px;
+		max-width: 768px;
 	}
 	img{
 		width: 186px;
@@ -109,6 +110,12 @@ img:hover {
 		padding: 30px 100px;
 
 	}
+	bodyh3{
+		font-size: 30px;
+		margin-bottom: 10px;
+	}
+	
+		
 }
 
 
